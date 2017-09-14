@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            tools:text="Pharmacy name"/>
+
+        <TextView
+            android:id="@+id/distanceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            tools:text="15km away"/>
+
+        <LinearLayout
+            android:id="@+id/detailLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="24dp">
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                tools:text="This is name"/>
+
+            <TextView
+                android:id="@+id/descriptonTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="This is a short description"/>
+
+            <TextView
+                android:id="@+id/anytimeBookingTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Anytime booking: Yes"/>
+
+            <TextView
+                android:id="@+id/callOnlyTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Call only: Yes"/>
+
+            <TextView
+                android:id="@+id/priceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Price: £20"/>
+
+            <TextView
+                android:id="@+id/quantityTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Quantity: 10"/>
+
+            <TextView
+                android:id="@+id/openTimeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Opens: time"/>
+
+            <TextView
+                android:id="@+id/closeTimeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Closes: time"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

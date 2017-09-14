@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HealtheraQuiz</string>
+    <string name="pharmacy_load_error">There was an error while loading pharmacies</string>
+    <string name="pharmacy_distance" formatted="false">%s miles away</string>
+    <string name="pharmacy_anytime_booking" formatted="false">Anytime booking: %s</string>
+    <string name="pharmacy_call_only" formatted="false">Call only: %s</string>
+    <string name="pharmacy_price" formatted="false">Price: £%d</string>
+    <string name="pharmacy_quantity" formatted="false">Quantity: %d</string>
+    <string name="pharmacy_opens" formatted="false">Opens: %s</string>
+    <string name="pharmacy_closes" formatted="false">Opens: %s</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+</resources>
